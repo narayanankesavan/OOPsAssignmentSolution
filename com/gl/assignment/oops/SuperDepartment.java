@@ -10,7 +10,7 @@ abstract class SuperDepartment {
 	private  String getTodaysWork() {
 		return "No Work as of now";
 	}	
-    private  String getWorkDeadline() {
+        private  String getWorkDeadline() {
 		return "Nil";
 	}
 	public  String isTodayAHoliday() {
