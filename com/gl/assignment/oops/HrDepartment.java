@@ -7,7 +7,7 @@ public class HrDepartment extends SuperDepartment{
 		
 	}
 	public String getTodaysWork(){
-		return "Fill today’s worksheet and mark your attendance";
+		return "Fill todayâ€™s worksheet and mark your attendance";
 		
 	}
 	public String getWorkDeadline(){
@@ -18,11 +18,15 @@ public class HrDepartment extends SuperDepartment{
 		return "team Lunch";
 		
 	}
+	/**
+	 * Constructor:TechDepartment()
+	 */
 	HrDepartment() {
 		System.out.println("Welecome to "+departmentName());
 		System.out.println(doActivity());
 		System.out.println(getTodaysWork());
 		System.out.println(getWorkDeadline());
+		//SuperDepartment will act as a super class 
 		System.out.println(super.isTodayAHoliday());
 		System.out.println();
 		
