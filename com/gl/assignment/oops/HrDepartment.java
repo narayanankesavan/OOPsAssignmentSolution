@@ -19,7 +19,7 @@ public class HrDepartment extends SuperDepartment{
 		
 	}
 	/**
-	 * Constructor:TechDepartment()
+	 * Constructor:HrDepartment()
 	 */
 	HrDepartment() {
 		System.out.println("Welecome to "+departmentName());
