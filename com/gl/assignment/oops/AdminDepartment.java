@@ -17,7 +17,7 @@ public class AdminDepartment extends SuperDepartment{
 		
 	}
 	/**
-	 * 
+	 * Constructor:AdminDepartment()
 	 */
 	 AdminDepartment() {
 		System.out.println("Welecome to "+departmentName());
@@ -26,7 +26,6 @@ public class AdminDepartment extends SuperDepartment{
 		//SuperDepartment will act as a super class 
 		System.out.println(super.isTodayAHoliday());
 		System.out.println();
-		// TODO Auto-generated constructor stub
 	}
 	
 	
